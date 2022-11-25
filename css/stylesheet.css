@@ -1,0 +1,211 @@
+*{
+    font-family: "Segoe UI",Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(100, 100, 100);
+}
+h1{
+    font-size: 300%;
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    padding-top: 10vh;
+}
+h3{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-tab{
+    background-color: rgb(50, 50, 50);
+    padding: auto, 25%, auto, 25%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    height: 65px;
+}
+.nav-button{
+    font-size: 150%;
+    color: red;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.nav-button:hover{
+    color: yellow;
+}
+.nav-button-container{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    height: 100%;
+}
+.placeholder{
+    height: 65px;
+}
+.title{
+    font-size: 300%;
+    font-weight: bold;
+    color: lime;
+}
+.info{
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.game-list{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.game-list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game-icon{
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+}
+.anime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anime-pics{
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.anime-text{
+    text-align: center;
+}
+
+.reading{
+    text-align: center;
+}
+
+.contact-img-container{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.contact-img{
+    width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.school-list{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.school-img{
+    width: 30%;
+    height: auto;
+}
+.school-content{
+    display: flex;
+    justify-content: center;
+}
+.school-text{
+    display: flex;
+    flex-direction: column;
+}
+.school-info{
+    margin: auto 10% auto 10%;
+}
+
+.spacing{
+    padding-bottom: 5%;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introgrid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.fullname{
+    padding-left: 5%;
+}
+.profile-pic{
+    width: 100%;
+}
+.facts{
+    text-align: center;
+}
+
+.arrow-head{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid red;
+}
+.arrow-body{
+    width: 50px;
+    height: 75px;
+    background-color: red;
+}
+.arrow-location{
+    animation-name: arrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@keyframes arrow {
+    0%{
+        margin-top: 10vh;
+    }
+    50%{
+        margin-top: 5vh;
+    }
+    100%{
+        margin-top: 10vh;
+    }
+}
+
+#name{
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    color: lime;
+    background-color: rgb(50, 50, 50);
+    margin-left: 1%;
+}
+
+#NCPS-img{
+    background-image: url(imgs/Education/NCPSpic.jpg);
+}
+
+#PHSS-img{
+    background-image: url(imgs/Education/PHSSpic.jpg);
+}
+
+#games-text{
+    text-align: center;
+}
