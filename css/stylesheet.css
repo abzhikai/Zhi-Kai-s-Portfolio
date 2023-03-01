@@ -158,6 +158,22 @@ a{
     text-align: center;
 }
 
+.project{
+    width: 100%;
+    margin: 1%, 2%;
+}
+
+.project-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-content{
+    background-color: rgb(50, 50, 50);
+    padding: 1%, 2%;
+}
+
 .arrow-head{
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
